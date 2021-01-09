@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>851</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>851</width>
+    <height>371</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>851</width>
+    <height>371</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Verdana</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QSplitter" name="splitter_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>831</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QSplitter" name="splitter_2">
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QPushButton" name="ADD">
+     <property name="text">
+      <string>ADD ENTRY</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="DELID">
+     <property name="placeholderText">
+      <string>Enter ID to Delete</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="VIEWALL">
+     <property name="text">
+      <string>VIEW ALL ENTRIES</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="DELETE">
+    <property name="text">
+     <string>DELETE BY ID</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>831</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QSplitter" name="splitter">
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QLineEdit" name="DOB">
+     <property name="placeholderText">
+      <string>Enter Date of Birth [dd-mm-yyyy]</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ADDRESS">
+     <property name="placeholderText">
+      <string>Enter Address</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="GENDER">
+     <property name="placeholderText">
+      <string>Enter Gender [M/F]</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="PHONE">
+     <property name="placeholderText">
+      <string>Enter Phone Number</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ID">
+     <property name="placeholderText">
+      <string>Enter ID</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="LASTNAME">
+     <property name="placeholderText">
+      <string>Enter Last Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="FIRSTNAME">
+     <property name="placeholderText">
+      <string>Enter First Name</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPlainTextEdit" name="DATAVIEW">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>ForbiddenCursor</cursorShape>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
